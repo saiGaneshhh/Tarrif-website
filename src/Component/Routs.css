@@ -1,0 +1,23 @@
+/* ul{
+    display: flex;
+    justify-content: space-around;
+
+} */
+
+ul {
+    list-style: none;
+
+}
+
+.tar a{
+    text-decoration: none;
+    border: 2px solid rgb(77,120,187);
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+    color: rgb(77,120,187);
+}
+
+.li1:hover{
+    color: rgb(209, 36, 209);
+}

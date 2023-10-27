@@ -3,14 +3,7 @@ import './App.css';
 import * as React from 'react';
 import Select from "react-select";
 import "bootstrap/dist/css/bootstrap.css";
-import { Route, Routes } from 'react-router-dom';
-import Tarrif from './Component/Tarrif';
-import Routs from './Component/Routs';
-import Section1 from './Component/Section1';
-
-import Section from './Component/Section';
-import Chapter1 from './Component/Chapter1';
-import Chapter2 from './Component/Chapter2';
+import Country from './Component/Country';
 
 
 // import Spinner from 'react-bootstrap/Spinner';
@@ -158,18 +151,7 @@ function App() {
       {/* {/* <div> */}
       {/* <Spinner animation="border" />; */} 
       <div>
-        <Routs />
-        <Routes>
-          <Route path='/tarrif' element={<Tarrif />} >
-            <Route path='china' element={<Section />}>
-              <Route path='sec1' element={<Section1 />}>
-                {/* <Spinner animation="border" />; */}
-                <Route path='chapter1' element={<Chapter1 />} />
-                <Route path='chapter2' element={<Chapter2 />} />
-              </Route>
-            </Route>
-          </Route>
-        </Routes>
+      < Country/>
       </div>
     </div>
   );

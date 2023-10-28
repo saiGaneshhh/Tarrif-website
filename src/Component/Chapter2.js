@@ -2,18 +2,9 @@
 import React, { useEffect, useState } from 'react';
 import file from "./file.png"
 import note from "./notes.png"
-import { LinearProgress } from '@mui/material';
+
 function Chapter2() {
 
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const timmer = setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-
-    return () => clearTimeout(timmer);
-  }, [])
   const [showContent, setShowContent] = useState(false);
 
   const toggleContent = () => {
@@ -23,7 +14,7 @@ function Chapter2() {
   return (
 
     <div>
-      <h7 style={{ fontSize: "18px", cursor: 'pointer' }} onClick={toggleContent}>  <img src={file} height={13} />Chapter 2 : Meat and edible meat offal</h7>
+      <h7 style={{ fontSize: "18px", cursor: 'pointer' }} onClick={toggleContent}>  <img src={file} height={13} /><b style={{ fontSize: "15px" }}>Chapter 2 </b>: Meat and edible meat offal</h7>
       {showContent &&
 
             <ul style={{color:'blue'}}>

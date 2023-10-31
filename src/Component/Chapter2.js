@@ -14,7 +14,7 @@ function Chapter2() {
   return (
 
     <div>
-      <h7 style={{ fontSize: "18px", cursor: 'pointer' }} onClick={toggleContent}>  <img src={file} height={13} /><b style={{ fontSize: "15px" }}>Chapter 2 </b>: Meat and edible meat offal</h7>
+      <h7 style={{ fontSize: "18px", cursor: 'pointer' }} onClick={toggleContent}>  <img src={file} height={13} /><b style={{ fontSize: "15px" }}>  Chapter 2 </b>: Meat and edible meat offal</h7>
       {showContent &&
 
             <ul style={{color:'blue'}}>

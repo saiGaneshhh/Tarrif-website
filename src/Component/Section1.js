@@ -14,7 +14,7 @@ function Section1() {
 
   return (
     <div style={{marginLeft:'20px',cursor:'pointer'}}>
-      <h6 onClick={toggleChapters}><img src={file} height={13}/>SECTION 1 : LIVE ANIMALS;ANIMAL PRODUCTS </h6>
+      <h6 onClick={toggleChapters}><img src={file} height={13}/>  <b>SECTION 1</b> : LIVE ANIMALS;ANIMAL PRODUCTS </h6>
       {showChapters && (
         <div style={{marginLeft:'20px'}}>
           <Chapter1 />

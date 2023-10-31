@@ -10,8 +10,8 @@ function Section2() {
   };
 
   return (
-    <div style={{marginLeft:'20px',cursor:'pointer'}}>
-      <h6 onClick={toggleChapters}><img src={file} height={13}/>SECTION 2 : LIVE ANIMALS;ANIMAL PRODUCTS </h6>
+    <div style={{marginLeft:'20px',cursor:'pointer',marginTop:'10px'}}>
+      <h6 onClick={toggleChapters}><img src={file} height={13}/>  <b>SECTION 2 </b>: LIVE ANIMALS;ANIMAL PRODUCTS </h6>
       {showChapters && (
         <div style={{marginLeft:'20px'}}>
           <Chapter1 />

@@ -33,7 +33,7 @@ function China() {
         </div>
       ) : (
         <div style={{ marginLeft: '20px', cursor: 'pointer', backgroundColor: 'white' }}>
-          <h6 onClick={toggleSection}> <img src={file} height={13} /><b>China HS Classification Folder Tree Root</b></h6>
+          <h6 onClick={toggleSection}> <img src={file} height={13} />  <b>China HS Classification Folder Tree Root</b></h6>
           {showSection &&
            (
             <div style={{marginLeft:'20px'}}>

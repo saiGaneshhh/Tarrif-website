@@ -14,7 +14,7 @@ function Chapter3() {
   return (
 
     <div>
-      <h7 style={{ fontSize: "18px", cursor: 'pointer' }} onClick={toggleContent}>  <img src={file} height={13} /><b style={{ fontSize: "15px" }}>Chapter 3</b> : Fish and crustaceans, molluscs and other aquatic invertebrates</h7>
+      <h7 style={{ fontSize: "18px", cursor: 'pointer' }} onClick={toggleContent}>  <img src={file} height={13} /><b style={{ fontSize: "15px" }}>  Chapter 3</b> : Fish and crustaceans, molluscs and other aquatic invertebrates</h7>
       {showContent &&
 
             <ul style={{color:'blue'}}>
